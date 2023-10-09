@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(lldb) Lancer",
+      "type": "lldb",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build Mac",
+      "program": "${workspaceFolder}/bin/build_mac"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/myriammansouri/Documents/GIT-formation/Template-4.0.0/src",
+      "program": "/Users/myriammansouri/Documents/GIT-formation/Template-4.0.0/src/build/Debug/outDebug"
+    }
+  ]
+}
